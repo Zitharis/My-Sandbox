@@ -6,4 +6,5 @@ I'll post small code challenges that I work on here.
 
 ## Table of Contents
 
-- [Main Page](https://github.com/Zitharis/My-Sandbox/tree/main)
+- **JavaScript**
+  - [Simple Animation](https://github.com/Zitharis/My-Sandbox/tree/main/JavaScript/Simple%20Animation)
