@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+            .center {
+                margin: auto;
+                width: 100%;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <canvas id="myCanvas" class="center"></canvas>
+        <script>
+          var canvas = document.getElementById('myCanvas');
+          var context = canvas.getContext('2d');
+          var centerX = canvas.width / 2;
+          var centerY = canvas.height / 2;
+          var radius = canvas.width / 5;
+    
+          context.beginPath();
+          context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+          context.fillStyle = 'blue';
+          context.fill();
+          context.lineWidth = 5;
+          context.strokeStyle = 'dark_blue';
+          context.stroke();
+        </script>
+        <script>
+            var canvas = document.getElementById('myCanvas');
+            var ctx = canvas.getContext('2d');
+            var centerX = canvas.width / 2;
+            var centerY = canvas.height / 2;
+            var radius = canvas.width / 5;
+      
+            var startAngle=1*Math.PI/2;
+            var endAngle=startAngle+Math.PI/2;
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+            ctx.closePath();
+            ctx.fillStyle = 'white';
+            ctx.fill();
+            ctx.stroke();
+          </script>
+
+      </body>
+</html>
