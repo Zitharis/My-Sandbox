@@ -8,4 +8,4 @@ I'll post small code challenges that I work on here.
 
 - **JavaScript**
   - [Simple Animation](https://github.com/Zitharis/My-Sandbox/tree/main/JavaScript/Simple%20Animation)
-  - [HTML Canvas Circle](https://github.com/Zitharis/My-Sandbox/tree/main/JavaScript%2FCanvas%20Circle%20Shenanigans)
+  - [HTML Canvas Circle](https://github.com/Zitharis/My-Sandbox/tree/main/JavaScript/Canvas%20Circle%20Shenanigans)
